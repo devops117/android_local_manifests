@@ -3,9 +3,11 @@
   <!-- Repositories -->
 
   <remote name="aospm" fetch="https://github.com/aospm" />
+  <remote name="aospm117" fetch="https://github.com/devops117" />
 
-  <!-- SDM845 generic device repo -->
+  <!-- SDM845&MSM8953 generic device repo -->
   <project path="device/generic/sdm845" name="android_device_generic_sdm845" revision="main" remote="aospm" groups="default" />
+  <project path="device/generic/msm8953" name="android_device_generic_msm8953" revision="main" remote="aospm117" groups="default" />
 
   <project path="external/tinyhal" name="tinyhal" revision="master" remote="aospm" groups="default" />
 
